@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+p{
+    line-height: 1.4em;
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(202, 49, 49), rgb(59, 33, 11));
+    padding: 30px 0;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(30, 30, 37);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: pink;
+    text-decoration: underline;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    width: 100rem;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+main{
+    min-height: 70vh;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 28vw;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: pink;
+}
+
+.produtos li:active{
+    border-color: blueviolet;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img{
+    height: 200px;
+}
+.img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.ctt{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 60px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.espaço{
+    margin-top: 26px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(58, 4, 58);
+    transform: scale(1.2);
+}
+
+.itens{
+    font-size: italic;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.logo{
+    width: 50%;
+}
+
+
+.principal{
+    width: 70%;
+    margin: 10vh auto;
+}
+
+.fotohome{
+    width: 100%;
+
+}
+
+.imghome{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+ 
+.mapa{
+    padding: 3em 0;
+}
+
+.imgmapa{
+    margin: 0 auto;
+    width: 940px;
+}
+
+
+.lista{
+    width: 940px;
+    margin: 0 auto;
+    
+
+}
+
+.lista2{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens::before{
+    content: "🌸";
+}
+
+footer{
+    color: blueviolet;
+    font-size: 16px;
+    background-color: rgb(56, 68, 78);
+    height: 5vh;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
+.margg{
+    margin-bottom: 100px;
+
+    }
+
+    p{
+        font-size: 1.2em;
+        line-height: 1.4em;
+
+    }
+
+    @media screen and (max-width: 480px) {
+       .lista{
+        width: 100%;
+       }
+       .imgmapa{
+        margin: 0 auto;
+        width: 100%;
+       }
+    }
+    
+
